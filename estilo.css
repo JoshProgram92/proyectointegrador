@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./img/bg.png');
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+
+.form_login{
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    margin: auto; /*para centrar completamente */
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000; /*para poner sombra a la caja*/
+    padding: 20px 30px;
+    border-top: solid #017bab; /*poner un borde*/
+    color: white; /*poner color al INICIAR SESION*/
+}
+
+.form_login h5 {
+    margin: 0;
+    text-align: center; /*alinea al centro la palabra INICIAR SESION*/
+    height: 40px; /*ALTURA DEL CUADRITO USUARIO Y CONTRASENA*/
+    margin-bottom: 30px; /*MARGEN INFERIOR PALABRA INICIAR SESION*/
+    border-bottom: 1px solid; /*PARA PONER UN BORDE BLANCO ABAJO DE INICIAR SESION*/
+    font-size: 19px;
+}
+
+.controls{
+    width: 100%; /*PARA INDICAR QUE OCUPE EL 100 DE ANCHO DEL PADRE DE LAS CAJAS USUARIO Y CONTRASENA*/
+    border: solid #017bab; /*PARA PONER BORDE DE COLOR A LAS CAJAS USUARIO Y CONTRASENA*/
+    margin-bottom: 15px; /*PARA PONER UN MARGEN INFERIOR - ES DECIR PARA SEPARAR LAS CAJAS USUARIO Y CONTRASENA*/
+    padding: 11px 10px; /*SIRVE PARA RELLENAR LAS CAJAS USUARIO Y CONTRASENA- ES DECIAR COMO PARA AGRANDAR LAS CAJAS DE INGRESO DE INFORMACION*/
+    background: #252323;      /*PARA DARLE COLOR INTERNO A LO ANCHO- ES DECIR DENTRO DONDE DICE USUARIO Y CONTRASENA*/
+    font-size: 13px; /*PARA ESPECIFICAR LA DIMENSION DE LA LETRA*/
+    font-weight: bold;/*ESPECIFICA EL GROSOR DE LA LETRA*/
+}
+
+.boton{
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.form_login p{
+    height: 40px;
+    text-align: center; /*PARA CENTRAR LA PALABRA RECUPERAR CONTRASEÑA*/
+    border-bottom: 1PX solid; /*PARA AGREGAR BORDE SOLIDO BLANCO ABAJO DE LA PALABRA RECUPERAR CONTRASEÑA*/
+}
+
+.form_login a{
+    color: white;
+    text-decoration: none; /*PARA SACAR EL SUBRRAYADO A LA PALABRA REUPERAR CONTRASEÑA*/
+    font-size: 14px;
+}
+
+.form_login a:hover {
+    text-decoration: underline; /*LA PSEUDO CLASE HOVER SIRVE PARA PONER EL SUBRAYADO EN LA PLABRA OLVIDASTE TU CONTRASENA*/
+}
